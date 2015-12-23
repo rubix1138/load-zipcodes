@@ -4,7 +4,7 @@ import psycopg2, pprint, sys
 debug = True
 zipSearch = ZipcodeSearchEngine()
 zipNumber = 600
-conString = "dbname=racelocator user=postgres"
+conString = "dbname=yourDBname user=postgres"
 con = psycopg2.connect(conString)
 con.autocommit = True
 
